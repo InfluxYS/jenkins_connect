@@ -14,7 +14,7 @@ repositories {
 
 task print(){
     doLast{
-        print "GitHub Push Complete"
+        println "GitHub Push Complete"
     }
 }
 
@@ -27,4 +27,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+bootRun {
+    main = 'influx.jenkins.demo.JenkinsApplication'
 }
