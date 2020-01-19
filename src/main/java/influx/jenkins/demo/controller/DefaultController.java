@@ -23,7 +23,7 @@ public class DefaultController {
 
     @PostConstruct
     void init(){
-        System.out.println("this bean is load ");
+        System.out.println("this bean is load!");
     }
 
 
