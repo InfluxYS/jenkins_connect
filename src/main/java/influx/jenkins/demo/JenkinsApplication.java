@@ -8,7 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsApplication {
 
     public static void main(String[] args) {
+
+        System.out.println("Boot Start");
         SpringApplication.run(JenkinsApplication.class, args);
+
     }
 
 }

@@ -25,4 +25,6 @@ public class DefaultController {
     void init(){
         System.out.println("this bean is load ");
     }
+
+
 }
